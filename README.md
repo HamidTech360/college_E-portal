@@ -1,4 +1,4 @@
-#About the APP
+### About the APP
 -- A fully functioning Electronic portal for schools and colleges 
 
 ### Pages in this APP
