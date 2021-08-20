@@ -1,0 +1,111 @@
+body{
+    background-color: #cecece;
+}
+.bold{
+    font-weight: bolder;
+}
+.heading{
+    width: 100%;
+    padding-left: 30px;
+    color: rgb(149, 10, 10);
+}
+a{
+    color:rgb(149, 10, 10) ;
+}
+.float-right > span{
+    margin-right: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.inpt-1{
+    margin-right: 20px;
+}
+.inpt-1,.inpt-2{
+   border: none;
+}
+.main{
+    width: 60%;
+    margin-left:70px;
+    display: flex;
+}
+.first{
+    flex: 1;
+}
+.second{
+    flex: 1;
+}
+.third{
+    flex: 1;
+}
+.thead{
+    color: rgb(149, 10, 10);
+    font-weight: bolder;
+}
+.subj-list{
+    line-height: 50px;
+    font-weight: bold;
+}
+.input-list{
+    line-height: 50px;
+    margin-top: 23px;
+    
+}
+.inputs{
+    border-left: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    background-color: #cecece;
+    border-bottom: 1px solid rgb(149, 10, 10);
+    height: 25px;
+}
+.btn{
+    margin-left: 70px;
+    width: 450px;
+    margin-top: 40px;
+}
+
+
+
+/*=========================MEDIA QUERY============================*/
+@media screen and (max-width:500px){
+    .heading{
+        padding-left: 15px;
+    }
+    input{
+        margin-top: 10px;
+        width: 80px;
+    }
+    select{
+        margin-top: 10px;
+        width: 40px;
+    }
+    .main{
+        margin-left: 10px;
+        width: 80%;
+    }
+    
+    .inputs{
+        width: 40px;
+    }
+    .float-right > span{
+        margin-right: 5px;
+        font-size: 8px;
+    }
+    .bold{
+        font-size: 10px;
+    }
+    .light{
+        font-size: 8px;
+    }
+    .thead{
+        font-size: 7px;
+    }
+    .subj-list{
+        font-size: 8px;
+    }
+    .btn{
+        width: 170px;
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,118 @@
+body{
+    background-color: whitesmoke;
+}
+.heading{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+span{
+    margin-right: 30px;
+}
+.float-right{
+    color: lightgrey;
+}
+.master{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    
+}
+.dashboard{
+    flex: 1;
+    /* border-right: 1px solid lightgrey; */
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 60px;
+    font-size: 17px;
+    
+    /* text-shadow: 2px 2px 4px lightgreen; */
+    color: black;
+    background-color: white;
+
+}
+.main{
+    flex: 4;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.dashboard-heading{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.icon{
+    height: 14px;
+    width: 10px;
+    margin-right: 8px;
+}
+span{
+    cursor: pointer;
+}
+.logout{
+    font-weight: bolder;
+}
+.white{
+    width: 80%;
+    height: 140px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.white-2{
+    background-color: white;
+    height: 300px;
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 60%;
+    line-height: 70px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: grey;
+    font-weight: bolder;
+
+}
+.profile-pics{
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.name{
+    font-weight: bolder;
+}
+.intro{
+    font-size: 14px;
+    color: grey;
+}
+.white, .white-2{
+    display: flex;
+}
+.first{
+    flex: 1;
+    color: black;
+}
+.second{
+    flex: 5;
+    
+}
+.marq{
+    background-color: white;
+    width: 80%;
+    font-weight: bolder;
+}

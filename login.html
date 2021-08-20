@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body class="">
+    
+        <div class="heading mx-aut-d-block text-center">  <h1>Login Page</h1> </div>
+        <div class="form-box mx-auto d-block text-center">
+            <div class="text-center alert" style="color: red; font-size: 25px; font-weight: bolder;">
+                
+            </div>
+            <div class="mx-auto d-block text-center image">
+                <img src="images/profiles.png" alt="">
+            </div>
+            <form action="" method="POST" class="form">
+                <h2>Student login</h2>
+                <input type="text" class="username" placeholder="surname" name = "username" required> <br class="hide">
+                <input type="password" class="password" placeholder="student Id" name= "password" required> <br class="hide">
+                <input type="submit" class="submit">
+                <h5>forgot password?</h5>
+            </form>
+        </div>
+        
+    
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.submit').click(function(e){
+                e.preventDefault()
+
+                let username = $('.username').val()
+                let password = $('.password').val()
+
+                if(username!== "" && password!==""){
+                    $.ajax({
+                        method:'post',
+                        url:'comfirm-login.php',
+                        data:$('.form').serialize(),
+                        beforeSend:function(){
+                            console.log(this.data);
+                        },
+                        success:function(response){
+                            console.log(response);
+                            if(response==1){
+                                window.location = 'profile_page.php'
+                            }else{
+                                $('.alert').html('Invalid login details')
+                            }
+                        }
+                    })
+                }
+            })
+        })
+    </script>
+</body>
+</html>

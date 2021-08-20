@@ -1,0 +1,111 @@
+body{
+    background-color: #cecece;
+}
+.box{
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/j1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.overlay{
+    background-color: black;
+    width: inherit;
+    height: inherit;
+    opacity: 0.9;
+}
+.sch-name{
+    font-size: 27px;
+    color: rgb(156, 11, 11);
+    font-weight: bolder;
+}
+.list-heading{
+    color: white;
+}
+.float-right{
+    color:rgb(156, 11, 11);
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.float-right > span{
+    margin-right: 20px;
+}
+a{
+    color:rgb(156, 11, 11) ;
+}
+
+#heading{
+    font-size: 23px;
+    color:rgb(156, 11, 11);
+    margin-top: 40px;
+    font-weight: bolder;
+    width: inherit;
+    
+}
+.big{
+    font-size: 27px;
+}
+ .main{
+    width: 90%;
+    margin-left:70px;
+    margin-top: 10px;
+}
+table{
+    width: inherit;
+    font-size: 15px;
+    border: 1px solid grey;
+}
+tbody tr:nth-child(odd){
+    background-color: whitesmoke;
+}
+table thead{
+    color: red;
+    font-weight: bolder;
+    background-color: black;
+}
+tbody{
+    line-height: 45px;
+    font-weight: bold;
+}
+
+
+
+
+/*==========================MEDIA QUERY===============================*/
+@media screen and (max-width:700px){
+    .sch-name{
+        font-size: 10px;
+    }
+    .float-right{
+        font-size: 8px;
+    }
+    .list-heading{
+        font-size: 8px;
+    }
+    .big{
+        font-size: 10px;
+
+    }
+    
+    #heading{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .main{
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 3px;
+    }
+    table{
+        font-size: 8px;
+    }
+    tbody{
+        line-height: 30px;
+    }
+    .box{
+        height: fit-content;
+    }
+}

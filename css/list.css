@@ -1,0 +1,113 @@
+body{
+    background-color: #cecece;
+
+}
+.head{
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/students.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overlay{
+    width: inherit;
+    height: inherit;
+    background-color: black;
+    opacity: 0.8;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sch-name{
+    font-size: 27px;
+    color: rgb(156, 11, 11);
+    font-weight: bolder;
+}
+.list-heading{
+    color: white;
+}
+.float-right{
+    color:rgb(156, 11, 11);
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.float-right > span{
+    margin-right: 20px;
+}
+a{
+    color:rgb(156, 11, 11) ;
+}
+table{
+    width: 94%;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 1px;
+    font-family: cursive;
+    color: rgb(156, 11, 11);
+}
+thead{
+    background-color: black;
+    color: rgb(156, 11, 11);
+    font-weight: bolder;
+}
+
+tbody tr:nth-child(odd){
+    background-color: white;
+}
+#heading{
+    font-size: 23px;
+    color:rgb(156, 11, 11);
+    margin-top: 40px;
+    font-weight: bolder;
+    width: inherit;
+    
+}
+.big{
+    font-size: 27px;
+}
+tbody{
+    font-weight: 500;
+}
+
+
+
+
+/*============MEDIA QUERY============*/
+@media screen and (max-width:500px){
+    .head{
+        height: 120px;
+    }
+    .sch-name{
+        font-size: 10px;
+    }
+    .float-right{
+        font-size: 8px;
+    }
+    .list-heading{
+        font-size: 8px;
+    }
+    .big{
+        font-size: 10px;
+
+    }
+    
+    #heading{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    tbody{
+        font-size: 8px;
+    }
+    tbody{
+        line-height: 30px;
+    }
+    table{
+        margin-left: 3px;
+        width: 100%;
+    }
+    thead td{
+        font-size: 8px;
+    }
+   
+}

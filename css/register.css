@@ -1,0 +1,107 @@
+body{
+    background-color: lightgrey;
+}
+.bold{
+    font-weight: bolder;
+}
+.heading{
+    width: 100%;
+    padding-left: 30px;
+    color: rgb(149, 10, 10);
+}
+a{
+    color:rgb(149, 10, 10) ;
+}
+.form-box{
+    width: 100%;
+    padding-left: 60px;
+    margin-top: 50px;
+    padding-right: 80px;
+    
+}
+.label{
+    flex: 1;
+    font-weight: bolder;
+}
+.input{
+    flex: 5;
+}
+.form{
+    display: flex;
+}
+.long-input{
+    width: 400px;
+}
+input, select{
+    border-radius: 5px;
+    margin-right: 20px;
+    border: none;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 30px;
+}
+.heading-2{
+    margin-bottom: 20px;
+}
+.float-right > span{
+    margin-right: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn{
+    background-image: linear-gradient(to right, red, black);
+    color: white;
+    width: 400px;
+    margin-top: 40px;
+}
+img{
+    width: 150px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/*======================MEDIA QUERY=================*/
+@media screen and (max-width:500px){
+
+.heading{
+    font-size: 10px;
+    padding-left: 5px;
+}
+.float-right > span{
+    font-size: 6px;
+    margin-right: 10px;
+}
+.form-box{
+    padding-left: 20px;
+    padding-right: 5px;
+}
+input, select{
+    width: 100px;
+    height: 20px;
+}
+.label{
+    font-size: 10px;
+}
+.long-input{
+    width: 200px;
+}
+.btn{
+    width: 200px;
+}
+img{
+    width: 60px;
+    height: 50px;
+}
+.prompt{
+    font-size: 6px;
+}
+.alert-success{
+    font-weight: bolder;
+}
+
+
+
+
+
+
+}

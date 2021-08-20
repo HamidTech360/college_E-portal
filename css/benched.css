@@ -1,0 +1,117 @@
+body{
+    background-color: #cecece;
+}
+.heading{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(246, 242, 242);
+    padding-left: 50px;
+    padding-right: 60px;
+}
+.school-name{
+    color:rgb(71, 209, 71);
+    font-size: 25px;
+    font-weight: bold;
+}
+#head-links{
+    font-size: 15px;
+    font-weight: bold;
+}
+.link{
+    margin-right: 40px;
+    cursor: pointer;
+}
+.text{
+    margin-top: 100px;
+    font-size: 46px;
+    font-family: calibri;
+}
+.small-text{
+    font-size: 15px;
+}
+.read-more{
+    background-color: rgb(100, 204, 100);
+    color: white;
+    border-radius: 30px;
+    border-color: inherit;
+    margin-top: 20px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+}
+.bottom-box{
+    background-color:rgb(31, 204, 98);
+    width: 100%;
+    height: 600px;
+    margin-top: 40px;
+    display: flex;
+    color: lightgrey;
+    padding-top: 40px;
+}
+.first, .second, .third{
+    flex: 1;
+    
+}
+.big-text{
+    font-size: 35px;
+    color: lightgrey;
+    font-weight: bold;
+}
+.medium-text{
+    font-size: 29px;
+    color: lightgrey;
+}
+.icon{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*================================MEDIA QUERY ======================================*/
+@media screen and (max-width:400px){
+    .school-name{
+        font-size: 15px;
+    }
+    .heading{
+        height: fit-content;
+        padding-left: 5px;
+        padding-right: 8px;
+    }
+    .temporary{
+        display: none;
+    }
+    .link{
+        font-size: 7px;
+        margin-right: 10px;
+    }
+    .international{
+        font-size: 14px;
+    }
+    .text{
+        font-size: 20px;
+        margin-top: 59px;
+    }
+    .small-text{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .read-more{
+        width: 90px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .big-text{
+        font-size: 17px;
+    }
+    .medium-text{
+        font-size: 10px;
+    }
+}
